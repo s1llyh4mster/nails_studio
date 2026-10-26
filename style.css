@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .main-btn {
     max-width: 200px;
     width: 100%;
@@ -8,7 +12,7 @@
     font-size: 24px;
     display: inline-flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .main-btn:hover {
@@ -33,7 +37,7 @@
     font-size: 24px;
     display: inline-flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .second-btn:hover {
@@ -173,7 +177,6 @@
     position: absolute;
     left: 20px;
     color: #BEB5A9;
-    pointer-events;
 }
 
 .search {
@@ -193,7 +196,7 @@
 }
 
 .search-wrapper:focus-within .search-icon {
-    color: #291C0E
+    color: #291C0E;
 }
 
 .search:focus {
@@ -217,7 +220,7 @@ input[type="checkbox"] {
     flex-direction: column;
     text-align: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    padding: 10px 10px 30px 10px
+    padding: 10px 10px 30px 10px;
 }
 
 .service-card img {
@@ -233,11 +236,11 @@ input[type="checkbox"] {
 }
 
 .card-text {
-    color: #6E473B
+    color: #6E473B;
 }
 
 .card-price {
-    color: #291C0E
+    color: #291C0E;
 }
 
 .header-bg {
@@ -264,7 +267,7 @@ nav a {
 
 h1 {
     font-family: monospace;
-    color:#291C0E
+    color: #291C0E;
 }
 
 .reg-btn {
